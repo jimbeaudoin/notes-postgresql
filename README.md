@@ -19,6 +19,7 @@ sudo apt-get install postgresql-9.4
 User Creation
 ```sh
 sudo su - postgres
+# -d Allowed to create databases
 createuser -d <username>;
 ```
 Database Administration
