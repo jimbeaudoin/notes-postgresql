@@ -16,3 +16,13 @@ Install PostgreSQL
 ```sh
 sudo apt-get install postgresql-9.4
 ```
+User Creation
+```sh
+sudo su - postgres
+createuser -d <username>;
+```
+Database Administration
+```sh
+sudo su - postgres
+psql
+```
