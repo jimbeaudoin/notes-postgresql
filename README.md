@@ -16,6 +16,11 @@ Install PostgreSQL
 ```sh
 sudo apt-get install postgresql-9.4
 ```
+Install lib
+```sh
+sudo apt-get install libpq-dev
+```
+
 User Creation
 ```sh
 sudo su - postgres
