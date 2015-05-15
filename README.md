@@ -24,8 +24,7 @@ sudo apt-get install libpq-dev
 User Creation
 ```sh
 sudo su - postgres
-# -d Allowed to create databases
-createuser -d <username>;
+createuser -d <username>; # -d Allowed to create databases
 ```
 Database Administration
 ```sh
